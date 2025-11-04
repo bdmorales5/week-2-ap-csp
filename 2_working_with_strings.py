@@ -88,16 +88,17 @@ declaration_of_indepedence="a decent respect for the opinions of mankind require
 
 # sentence = "Python is fun to learn"
 
-# # .split(): Splits the string into a list of words
-# words = sentence.split()
-# print("Split result:", words)
+# .split(): Splits the string into a list of words
+words = sentence.split()
+print("Split result:", words)
+words2=sentence.join("")
 
-# # .format(): Allows inserting values into strings using {}
-# name = "Marvin"
-# age = 35
-# intro = "My name is {} and I am {} years old.".format(name, age)
-# print(intro)
+# .format(): Allows inserting values into strings using {}
+name = "Marvin"
+age = 35
+intro = "My name is {} and I am {} years old.".format(name, age)
+print(intro)
 
-# # You can also use f-strings (Python 3.6+)
-# intro_fstring = f"My name is {name} and I am {age} years old."
-# print(intro_fstring)
+# You can also use f-strings (Python 3.6+)
+intro_fstring = f"My name is {name} and I am {age} years old."
+print(intro_fstring)
